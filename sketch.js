@@ -3,7 +3,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   
   d = select('.div-block');
-  f = select('#my-gui-container');
+ // f = select('#my-gui-container');
   d.position(0,0);
 
   gui = new Gui();
@@ -23,7 +23,7 @@ function setup() {
   gui_setup.addColor(gui,'color').onChange(update);
   gui_setup.addColor(gui,'bColor').onChange(update);
   
-   gui_setup.add(gui, 'description').onChange(description);
+  //gui_setup.add(gui, 'description').onChange(description);
 
 }
 
@@ -53,7 +53,7 @@ function update() {
   redraw();
 }
 
-function description() {
+//function description() {
 
     f.style('color', gui.dColor);
 
@@ -81,7 +81,7 @@ function Gui() {
   this.stroke = '#ffffff'
   this.color = '#ffffff';
   this.bColor = '#215da7';
-  this.description = true;
+ // this.description = true;
 
 }
 
