@@ -1,4 +1,5 @@
 
+var d;
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   
@@ -55,17 +56,17 @@ function update() {
 
 //function description() {
 
-    f.style('color', gui.dColor);
-
-    if (gui.description) {
-
-        d.style('color', gui.dColor);
-        d.show();
-
-    } else {
-        d.style('display', 'none');
-    }
-}
+//    f.style('color', gui.dColor);
+//
+//    if (gui.description) {
+//
+//        d.style('color', gui.dColor);
+//        d.show();
+//
+//    } else {
+//        d.style('display', 'none');
+//    }
+//}
 
 function Gui() {
   this.RotateX = 330;
