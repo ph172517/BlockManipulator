@@ -1,8 +1,10 @@
+/*
 html,body{
     margin:0;
     padding:0;
     overflow:hidden;
 }
+*/
 
 canvas{
     display:block;
@@ -27,7 +29,7 @@ canvas{
   grid-template-columns: 1fr;
   -ms-grid-rows: auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
-  color: #000;
+  color: #fff;
 }
 
 .div-block {
@@ -66,7 +68,7 @@ canvas{
 
 .body {
 
-  color: #000;
+  color: #fff;
 }
 
 #w-node-c8e28189-ce5a-af5f-e0a1-402fa52de61b-85466a97 {
